@@ -7,7 +7,229 @@
     font-style: normal;
 }
 
+/* shared style */
+.display-flex{
+    display: flex;
+}
+
 .logo-title {
     font-size: 32px;
     font-weight: bold;
+}
+#logo{
+    height: 62px;
+    width: 62px;
+}
+.nav-logo{
+    align-items: center;
+}
+.nav{
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-around;
+}
+.nav-bar ul li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+.home{
+    color: rgba(254, 163, 1, 1);
+}
+.About{
+color: rgba(1, 172, 253, 1);
+}
+.Facilities{
+color: rgba(5, 212, 223, 1);
+}
+.Admission{
+columns: rgba(93, 88, 239, 1);
+}
+.nav-bar ul li a{
+    margin: 20px;
+    text-decoration: none;
+}
+.Contact-btn{
+    background-color: rgba(254, 163, 1, 1);
+    color: white;
+    height: 50px;
+    width: 197px;
+    border-radius: 12px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px, 60.5px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 56px;
+}
+.banner-des{
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.Enroll-now{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 197px;
+    border-radius: 12px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px, 60.5px;
+}
+.banner{
+    margin-left: 140px;
+    margin-right: 140px;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+/* .about-banner{
+    margin: 630px, 331px;
+    border: 4px solid black;
+}
+.hero{
+    width: 570px;
+    height:468px;
+    border: 4px solid black;
+}  */
+  .background-container{
+    background-image: url(../assets/bg.png);
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .Curriculum{
+    font-size: 46px;
+    font-weight: bold;
+   
+    text-align: center;
+   
+  }
+  .Curriculum-container{
+    margin-left: 140px;
+    margin-right: 140px;
+    gap: 28px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+  }
+.curriculum-card{
+   
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* height: 475px; */
+    /* width: 350px; */
+    /* margin: 20px; */
+    /* border: 3px solid black; */
+    padding: 25px;
+        
+      
+}
+.curriculum-img{
+    padding-top: 30px;
+}
+.curriculum-card1{
+    background: linear-gradient( rgba(222, 245, 255, 1), rgba(255, 255, 255, 0));
+    border: 2px solid rgba(222, 245, 255, 1);
+    border-radius: 18px;
+ }
+ .curriculum-card2{
+    background: linear-gradient( rgba(255, 244, 220, 1), rgb(255, 255, 255));
+    border: 2px solid rgba(255, 244, 220, 1);
+    border-radius: 18px;
+ }
+ .curriculum-card3{
+    background: linear-gradient( rgba(238, 225, 255, 1), rgba(255, 255, 255, 0));
+    border: 2px solid rgba(238, 225, 255, 1);
+    border-radius: 18px;
+ }
+.card-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.card-des{
+    color: rgba(128, 128, 128, 1);
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.read-more{
+    font-size: 15px;
+    font-weight: bold;
+    
+    border-style: none;
+    background: none;
+    padding-bottom: 20px;
+}
+.read1{
+    color: rgba(100, 200, 255, 1);
+    padding-bottom: 50px;
+}
+.read2{
+    color: rgba(240, 170, 0, 1);
+    padding-bottom: 50px;
+}
+.read3{
+    color:rgba(135, 0, 255, 1) ;
+    padding-bottom: 50px;
+}
+/* .card1{
+    border: 1px rgb(2, 1, 0);
+} */
+ /* story */
+.stories-container{
+    background-image: url(../assets/bg.png);
+}
+/* story */
+.four-card{
+    /* border: 3px solid rgb(238, 10, 10); */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding: 228px, 37px, 28px, 37px;
+}
+.stories-container{
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.story-part{
+    gap: 18px;
+}
+.story1-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+}
+.story4-title{
+    /* border: 3px solid rgb(8, 236, 145); */
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    width: 214px;
+    height: 57px ;
+    padding-left: 20px;
+    
+}
+.box{
+    border: 3px solid pink;
+    justify-content: center;
+    text-align: left;
+    border-radius: 16px;
+    
+}
+.img4{
+    border-top-left-radius: 16px;
+    object-fit: cover;
 }
