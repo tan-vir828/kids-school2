@@ -13,7 +13,7 @@
 }
 
 .logo-title {
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -35,7 +35,7 @@
 .nav-bar ul li {
     list-style: none;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
 
 }
@@ -68,18 +68,18 @@
     width: 197px;
     border-radius: 12px;
     border-style: none;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     padding: 10px, 60.5px;
 }
 
 .banner-title {
     font-weight: bold;
-    font-size: 56px;
+    font-size: 3.5rem;
 }
 
 .banner-des {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -94,7 +94,7 @@
     width: 197px;
     border-radius: 12px;
     border-style: none;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     padding: 10px, 60.5px;
 }
@@ -113,11 +113,11 @@
 .background-container {
     background-image: url(../assets/bg.png);
     padding-top: 80px;
-   
+
 }
 
 .Curriculum {
-    font-size: 46px;
+    font-size: 2.875rem;
     font-weight: bold;
 
     text-align: center;
@@ -138,10 +138,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* height: 475px; */
-    /* width: 350px; */
-    /* margin: 20px; */
-    /* border: 3px solid black; */
+    height: 475px;
     padding: 25px;
 
 
@@ -170,20 +167,20 @@
 }
 
 .card-title {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
 .card-des {
     color: rgba(128, 128, 128, 1);
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 500;
     padding-left: 40px;
     padding-right: 40px;
 }
 
 .read-more {
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: bold;
 
     border-style: none;
@@ -211,17 +208,20 @@
 .stories-container {
     background-image: url(../assets/bg.png);
     background: linear-gradient(rgba(255, 255, 255, 1), rgb(250, 191, 90));
-} 
-.story-heading{
-    font-size: 46px;
+}
+
+.story-heading {
+    font-size: 2.875rem;
     font-weight: bold;
     text-align: center;
 }
-.single-image-hp{
+
+.single-image-hp {
     padding-left: 10px;
     padding-right: 10px;
 }
-.single-card{
+
+.single-card {
     display: flex;
     height: 100%;
 }
@@ -246,25 +246,25 @@
     gap: 18px;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .story1-title {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     color: rgba(0, 0, 0, 1);
 }
 
 .story4-title {
     /* border: 3px solid rgb(8, 236, 145); */
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: bold;
     color: black;
     width: 214px;
     height: 57px;
     padding-left: 37px;
     padding-right: 37px;
-    padding-bottom: ;
+
 
 }
 
@@ -291,7 +291,7 @@
 
 .November {
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1rem;
     background-color: rgba(149, 178, 38, 1);
     padding: 10px 19px;
     border-radius: 47px;
@@ -301,36 +301,41 @@
 
 
 }
-.story-btn{
+
+.story-btn {
     position: relative;
     top: -25px;
     left: 25px;
 }
-.view{
+
+.view {
     background-color: black;
     color: white;
     border-style: none;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     padding: 10px;
     border-radius: 12px;
     width: 200px;
     height: 50px;
 }
-.last-btn{
+
+.last-btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
-    margin-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 60px;
 }
+
 /* footer */
-#footer-logo{
+#footer-logo {
     height: 82px;
     width: 81px;
-    
+
 }
-.foot{
+
+.foot {
     color: rgba(255, 255, 255, 1);
     display: flex;
     justify-content: space-around;
@@ -340,4 +345,74 @@
     width: 1450px;
     height: 450px;
     padding: 125px, 150px, 170px, 150px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* responsive */
+@media screen and (max-width: 576px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+      }
+    .logo-title,
+    .nav-bar,
+    .Contact-btn {
+        display: none;
+    }
+
+    .nav {
+        margin: 0px;
+        border: 1px solid orange;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 100%;
+    }
+
+    .banner{
+        display: flex;
+        flex-direction: column-reverse;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .hero img{
+        width: 336.58px;
+        height: 413px;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-title{
+        /* justify-content: center; */
+        text-align: center;
+        font-size: 32px;
+        width: 357px;
+        height: 120px;
+    }
+    .banner-des{
+        font-size: 16px;
+        /* justify-content: center; */
+        text-align: center;
+        /* margin-top: 18px; */
+        /* margin-bottom: 18px; */
+    }
+    .Enroll-now{
+        width: 131px;
+        height: 42px;
+        justify-content: center;
+        text-align: center;
+    }
+    .details{
+        text-align: center;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 1540px) {
+    .hamburger {
+        display: none;
+    }
 }

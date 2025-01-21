@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/1e010a22b4.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="quicksand-primaryfont">
@@ -13,6 +14,7 @@
         <section class="nav display-flex">
             <div class="nav-logo display-flex">
                 <img id="logo" src="assets/logo.png" alt="">
+
                 <p class="logo-title">SCHOOL</p>
             </div>
             <div class="nav-bar ">
@@ -26,30 +28,37 @@
             <div>
                 <button class="Contact-btn">Contact</button>
             </div>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </section>
     </header>
 
     <main>
-        <section class="banner display-flex">
+        <section class="banner display-flex ">
             <div class="about-banner">
-                <h1 class="banner-title">
-                    <span style="color: rgba(254, 163, 1, 1);">Empowering</span> <br> students from small <br> age <span
-                        style="color: rgba(1, 172, 253, 1);">towards vision</span>
-                </h1>
-                <p class="banner-des">
-                    With the courage, Confidence, Creativity and Compassion to make their Unique Contribution in a
-                    Diverse
-                    and Dynamic World.
-                </p>
-                <button class="Enroll-now">
-                    Enroll Now
-                </button>
+                <div class="details ">
+                    <h1 class="banner-title">
+                        <span style="color: rgba(254, 163, 1, 1);">Empowering</span> <br> students from small <br> age
+                        <span style="color: rgba(1, 172, 253, 1);">towards vision</span>
+                    </h1>
+                    <p class="banner-des">
+                        With the courage, Confidence, Creativity and Compassion to make their Unique Contribution in a
+                        Diverse
+                        and Dynamic World.
+                    </p>
+                    <button class="Enroll-now">
+                        Enroll Now
+                    </button>
+                </div>
+                
             </div>
             <div class="hero">
                 <img src="assets/hero-kids.png" alt="">
             </div>
+
         </section>
-        <section class="background-container">
+        <section class="background-container hidden">
             <h2 class="Curriculum">Standard Curriculum</h2>
             <div class="Curriculum-container display-flex">
 
@@ -91,7 +100,7 @@
                 </div>
             </div>
         </section>
-        <section class="stories-container">
+        <section class="stories-container hidden">
             <h2 class="story-heading">Our Stories</h2>
             <div class="display-flex story-part">
                 <div class="single-card box">
@@ -107,7 +116,7 @@
                                 changes is a platform for open discussion in an inclusive and
                                 collaborative environment, providing the...</p>
                         </div>
-                        
+
 
                     </div>
                 </div>
@@ -155,14 +164,14 @@
                 </div>
             </div>
 
-
+            <div class="last-btn">
+                <button class="view">View All</button>
+            </div>
         </section>
-        <div class="last-btn">
-            <button class="view">View All</button>
-        </div>
+
     </main>
 
-    <footer class="display-flex foot">
+    <footer class="display-flex foot hidden">
         <div>
             <div>
                 <div class="display-flex">
@@ -173,7 +182,7 @@
                 <p>"Empowering Minds, Shaping Futures."</p>
             </div>
         </div>
-        
+
         <div>
             <h3>About School</h3>
             <p>Home</p>
