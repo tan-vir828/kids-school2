@@ -485,6 +485,9 @@
     .box img{
         width: 173px;
     }
+    .arrow{
+        display: none;
+    }
     .story-btn{
         width: 124px;
         height: 12px;
