@@ -202,7 +202,31 @@
     color: rgba(135, 0, 255, 1);
     padding-bottom: 50px;
 }
-
+.arrow
+{
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+  /* align-items: center; */
+  gap: 10px;
+}
+.less, .greater
+{
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background: rgb(254, 163, 1);
+  border: none;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  /* padding-top: 30px; */
+  /* padding-bottom: 30px; */
+  
+}
 
 /* story */
 .stories-container {
