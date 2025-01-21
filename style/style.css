@@ -8,7 +8,7 @@
 }
 
 /* shared style */
-.display-flex{
+.display-flex {
     display: flex;
 }
 
@@ -16,42 +16,52 @@
     font-size: 32px;
     font-weight: bold;
 }
-#logo{
+
+#logo {
     height: 62px;
     width: 62px;
 }
-.nav-logo{
+
+.nav-logo {
     align-items: center;
 }
-.nav{
+
+.nav {
     align-items: center;
     /* justify-content: center; */
     justify-content: space-around;
 }
-.nav-bar ul li{
+
+.nav-bar ul li {
     list-style: none;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
-   
+
 }
-.home{
+
+.home {
     color: rgba(254, 163, 1, 1);
 }
-.About{
-color: rgba(1, 172, 253, 1);
+
+.About {
+    color: rgba(1, 172, 253, 1);
 }
-.Facilities{
-color: rgba(5, 212, 223, 1);
+
+.Facilities {
+    color: rgba(5, 212, 223, 1);
 }
-.Admission{
-columns: rgba(93, 88, 239, 1);
+
+.Admission {
+    columns: rgba(93, 88, 239, 1);
 }
-.nav-bar ul li a{
+
+.nav-bar ul li a {
     margin: 20px;
     text-decoration: none;
 }
-.Contact-btn{
+
+.Contact-btn {
     background-color: rgba(254, 163, 1, 1);
     color: white;
     height: 50px;
@@ -62,11 +72,13 @@ columns: rgba(93, 88, 239, 1);
     font-weight: 600;
     padding: 10px, 60.5px;
 }
-.banner-title{
+
+.banner-title {
     font-weight: bold;
     font-size: 56px;
 }
-.banner-des{
+
+.banner-des {
     font-size: 20px;
     font-weight: 400;
     padding-top: 24px;
@@ -74,7 +86,8 @@ columns: rgba(93, 88, 239, 1);
     justify-content: center;
     align-items: center;
 }
-.Enroll-now{
+
+.Enroll-now {
     background-color: black;
     color: white;
     height: 50px;
@@ -85,7 +98,8 @@ columns: rgba(93, 88, 239, 1);
     font-weight: 600;
     padding: 10px, 60.5px;
 }
-.banner{
+
+.banner {
     margin-left: 140px;
     margin-right: 140px;
     gap: 50px;
@@ -94,6 +108,7 @@ columns: rgba(93, 88, 239, 1);
     margin-top: 20px;
     margin-bottom: 60px;
 }
+
 /* .about-banner{
     margin: 630px, 331px;
     border: 4px solid black;
@@ -103,28 +118,31 @@ columns: rgba(93, 88, 239, 1);
     height:468px;
     border: 4px solid black;
 }  */
-  .background-container{
+.background-container {
     background-image: url(../assets/bg.png);
     padding-top: 80px;
-    padding-bottom: 80px;
-  }
-  .Curriculum{
+   
+}
+
+.Curriculum {
     font-size: 46px;
     font-weight: bold;
-   
+
     text-align: center;
-   
-  }
-  .Curriculum-container{
+
+}
+
+.Curriculum-container {
     margin-left: 140px;
     margin-right: 140px;
     gap: 28px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    
-  }
-.curriculum-card{
-   
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.curriculum-card {
+
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -133,103 +151,157 @@ columns: rgba(93, 88, 239, 1);
     /* margin: 20px; */
     /* border: 3px solid black; */
     padding: 25px;
-        
-      
+
+
 }
-.curriculum-img{
+
+.curriculum-img {
     padding-top: 30px;
 }
-.curriculum-card1{
-    background: linear-gradient( rgba(222, 245, 255, 1), rgba(255, 255, 255, 0));
+
+.curriculum-card1 {
+    background: linear-gradient(rgba(222, 245, 255, 1), rgba(255, 255, 255, 0));
     border: 2px solid rgba(222, 245, 255, 1);
     border-radius: 18px;
- }
- .curriculum-card2{
-    background: linear-gradient( rgba(255, 244, 220, 1), rgb(255, 255, 255));
+}
+
+.curriculum-card2 {
+    background: linear-gradient(rgba(255, 244, 220, 1), rgb(255, 255, 255));
     border: 2px solid rgba(255, 244, 220, 1);
     border-radius: 18px;
- }
- .curriculum-card3{
-    background: linear-gradient( rgba(238, 225, 255, 1), rgba(255, 255, 255, 0));
+}
+
+.curriculum-card3 {
+    background: linear-gradient(rgba(238, 225, 255, 1), rgba(255, 255, 255, 0));
     border: 2px solid rgba(238, 225, 255, 1);
     border-radius: 18px;
- }
-.card-title{
+}
+
+.card-title {
     font-size: 24px;
     font-weight: bold;
 }
-.card-des{
+
+.card-des {
     color: rgba(128, 128, 128, 1);
     font-size: 15px;
     font-weight: 500;
     padding-left: 40px;
     padding-right: 40px;
 }
-.read-more{
+
+.read-more {
     font-size: 15px;
     font-weight: bold;
-    
+
     border-style: none;
     background: none;
     padding-bottom: 20px;
 }
-.read1{
+
+.read1 {
     color: rgba(100, 200, 255, 1);
     padding-bottom: 50px;
 }
-.read2{
+
+.read2 {
     color: rgba(240, 170, 0, 1);
     padding-bottom: 50px;
 }
-.read3{
-    color:rgba(135, 0, 255, 1) ;
+
+.read3 {
+    color: rgba(135, 0, 255, 1);
     padding-bottom: 50px;
 }
-/* .card1{
-    border: 1px rgb(2, 1, 0);
-} */
- /* story */
-.stories-container{
+
+
+/* story */
+.stories-container {
     background-image: url(../assets/bg.png);
 }
+.story-heading{
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+}
+
 /* story */
-.four-card{
+.four-card {
     /* border: 3px solid rgb(238, 10, 10); */
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     padding: 228px, 37px, 28px, 37px;
+    margin: 10px;
 }
-.stories-container{
+
+
+.stories-container {
     margin-left: 140px;
     margin-right: 140px;
 }
-.story-part{
+
+.story-part {
     gap: 18px;
+    justify-content: center;
+    align-items: center;
+    
 }
-.story1-title{
+
+.story1-title {
     font-size: 24px;
     font-weight: bold;
     color: rgba(0, 0, 0, 1);
 }
-.story4-title{
+
+.story4-title {
     /* border: 3px solid rgb(8, 236, 145); */
     font-size: 15px;
     font-weight: bold;
     color: black;
     width: 214px;
-    height: 57px ;
-    padding-left: 20px;
-    
+    height: 57px;
+    padding-left: 37px;
+    padding-right: 37px;
+    padding-bottom: ;
+
 }
-.box{
-    border: 3px solid pink;
+
+.box {
+    /* border: 3px solid pink; */
     justify-content: center;
     text-align: left;
     border-radius: 16px;
-    
+    background-color: rgba(255, 255, 255, 1);
+
 }
-.img4{
+
+.big {
+    max-width: 540px;
+    width: 100%;
+    height: 337px;
+}
+
+.img4 {
     border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
     object-fit: cover;
+}
+
+.November {
+    font-weight: 600;
+    font-size: 16px;
+    background-color: rgba(149, 178, 38, 1);
+    padding: 10px 19px;
+    border-radius: 47px;
+    color: white;
+    border-style: none;
+
+
+
+}
+.story-btn{
+    position: relative;
+    top: -25px;
+    left: 25px;
 }
