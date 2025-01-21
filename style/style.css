@@ -223,7 +223,7 @@
 
 .single-card {
     display: flex;
-    height: 100%;
+    height: 639px;
 }
 
 /* story */
@@ -342,7 +342,7 @@
     /* text-align: center; */
     align-items: center;
     background-color: rgba(1, 172, 253, 1);
-    width: 1450px;
+    width: 100%;
     height: 450px;
     padding: 125px, 150px, 170px, 150px;
 }
@@ -437,11 +437,24 @@
     .foot{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        width: 390px;
-        height: 642px;
-        
+        width: 100%;
+        height: 542px;
     }
+    
+    .footer-box1,.footer-box2, .footer-box3{
+        /* background-color: aqua; */
+        row-gap: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+.footer-box2{
+    width: 129px;
+    height: 189px;
+    /* background-color: blueviolet; */
+    flex-direction: column;
+    justify-content: space-evenly;
 
+}
 }
 
 @media screen and (min-width: 577px) and (max-width: 1540px) {
