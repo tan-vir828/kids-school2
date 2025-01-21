@@ -480,9 +480,10 @@
         width: 100%;
     }
     .view{
-        width: 174px;
+        width: 154px;
         height: 30px;
         font-size: 16px;
+        font-weight: bold;
     }
 
     .foot {
