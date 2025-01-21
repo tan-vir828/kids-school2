@@ -125,8 +125,8 @@
 }
 
 .Curriculum-container {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 140px;
+    margin-right: 140px;
     gap: 28px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -139,7 +139,7 @@
     justify-content: center;
     text-align: center;
     height: 475px;
-    padding: 25px;
+    padding: auto;
 
 
 }
@@ -407,6 +407,39 @@
         text-align: center;
         padding-left: 16px;
         padding-right: 16px;
+    }
+    .Curriculum-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .curriculum-card1 ,
+    .curriculum-card2 ,
+    .curriculum-card3{
+        width:357px ;
+        height: 421px ;
+        
+    }
+    
+    .card-des{
+        padding-top: 22px;
+        padding-bottom: 20px;
+    }
+    .card-title{
+        padding-top: 22px;
+    }
+    .Curriculum{
+        font-size: 26px;
+    }
+    .foot{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 390px;
+        height: 642px;
+        
     }
 
 }
