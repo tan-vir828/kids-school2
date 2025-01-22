@@ -535,8 +535,12 @@
         /* background-color: blueviolet; */
         flex-direction: column;
         justify-content: space-evenly;
+        margin-bottom: -150px;
 
     }
+   .home{
+    padding-top: 100px;
+   }
 }
 
 @media screen and (min-width: 577px) and (max-width: 1540px) {
