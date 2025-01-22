@@ -202,30 +202,31 @@
     color: rgba(135, 0, 255, 1);
     padding-bottom: 50px;
 }
-.arrow
-{
-  display: flex;
-  justify-content: center;
-  /* text-align: center; */
-  /* align-items: center; */
-  gap: 10px;
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    /* align-items: center; */
+    gap: 10px;
 }
-.less, .greater
-{
-  width: 60px;
-  height: 60px;
-  border-radius: 30px;
-  background: rgb(254, 163, 1);
-  border: none;
-  margin-top: 80px;
-  margin-bottom: 60px;
-  color: #FFFFFF;
-  font-weight: bold;
-  font-size: 18px;
-  text-align: center;
-  /* padding-top: 30px; */
-  /* padding-bottom: 30px; */
-  
+
+.less,
+.greater {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: rgb(254, 163, 1);
+    border: none;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    /* padding-top: 30px; */
+    /* padding-bottom: 30px; */
+
 }
 
 /* story */
@@ -474,39 +475,47 @@
 
     .four-card {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         flex: 1;
 
     }
-    .box{
+
+    .box {
         width: 173px;
         height: 190px;
     }
-    .box img{
+
+    .box img {
         width: 173px;
     }
-    .arrow{
+
+    .arrow {
         display: none;
     }
-    .story-btn{
+
+    .story-btn {
         width: 124px;
         height: 12px;
-       
+
     }
-    .November{
+
+    .November {
         font-size: 9px;
         font-weight: 300;
     }
-    .story4-title{
+
+    .story4-title {
         font-size: 9px;
         font-weight: bold;
         width: 117px;
     }
-    .story-heading{
+
+    .story-heading {
         font-size: 26px;
         width: 100%;
     }
-    .view{
+
+    .view {
         width: 154px;
         height: 30px;
         font-size: 16px;
@@ -536,9 +545,13 @@
         flex-direction: column;
         justify-content: space-evenly;
         margin-bottom: -150px;
+        margin-top: -70px;
 
     }
-   
+
+
+
+}
 
 @media screen and (min-width: 577px) and (max-width: 1540px) {
     .hamburger {
